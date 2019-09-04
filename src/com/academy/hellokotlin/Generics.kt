@@ -58,17 +58,17 @@ fun main(args: Array<String>) {
 }
 
 
-class Box<in T> {
+class Box<out T> {
 
-    fun asd(asd: T)
-    {
-
-    }
-
-    fun asdsad(): T
-    {
-
-    }
+//    fun asd(asd: T)
+//    {
+//
+//    }
+//
+//    fun asdsad(): T
+//    {
+//
+//    }
 
 }
 
